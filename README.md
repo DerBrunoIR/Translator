@@ -37,8 +37,8 @@ foo@bar:~$ ./read
 ```
 
 # encode/decode messages via python script 
-> [!Note]
-> In certain environment, like windows, unicode stdin and stdout can be a problem.
+> [!warning]
+> In certain environment, like windows, unicode stdin and stdout might not work.
 
 ```console
 foo@bar:~$ echo "This should be invisible!" | python3 ./cli.py > out.txt
