@@ -50,3 +50,4 @@ foo@bar:~$ cat out.txt | python3 ./cli.py -d
 
 # known issues
 
+Text rendering is application specific.
